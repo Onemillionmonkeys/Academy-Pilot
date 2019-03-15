@@ -1,0 +1,14 @@
+/*
+Theme Name:     Academy Pilot
+Description:    Child theme for Boilerplate 
+Author:         One Million Monkeys
+Author URI:     http://onemillionmonkeys.dk
+Template:       boilerplate
+Version:        0.0.1
+*/
+
+/*@import "css/layout.css";
+@import "css/typography.css";*/
+@import "css/overwrite.css";
+
+

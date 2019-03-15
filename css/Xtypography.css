@@ -1,0 +1,402 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Orbitron',sans-serif;	
+ /*   letter-spacing: 0.05em;	*/
+    text-transform: uppercase;
+}
+
+
+h1 {
+    color: #f6f8e9;
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.h1-con h1 {
+	color:#000;
+}
+
+h2 {
+/*	background: #4e4f48 none repeat scroll 0 0; */
+	/*background: #2e2f28 none repeat scroll 0 0;
+	
+	color: #f7f9ea;
+	display: block;
+	font-family: "play";
+	font-size: 80%;
+	font-weight: 400;
+	margin-bottom: 1vw;
+	padding: 0.125vw 0.25vw;*/
+    margin-bottom: .5vw;
+}
+
+h3 {
+    font-size: 75%;
+    text-decoration: none;
+	margin-bottom:.5vw;
+}
+
+h4 {
+	font-size:62.5%;
+}
+
+/* HEADER */
+
+
+.col-content h2, aside h3 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 2px solid #554846;
+    border-top: 2px solid #554846;
+    color: #554846;
+    font-weight: 700;
+    line-height: inherit;
+    margin-bottom: 0.25em;
+    padding: 0.25em 3% 0;
+}
+
+/*
+.squad-list-titles h3 {
+	color:#fff;
+	margin:0 0 .25em;
+	font-size:.625em;
+	width:100%;	
+}
+*/
+.ship-vs-1 h3, .ship-vs-2 h3 {
+	min-height:2em;
+}
+
+/*
+.squad-list-titles .pilot-title {
+	width:34.625%;
+	float:left;
+}
+
+.squad-list-titles .upgrades-title {
+	width:59.375%;
+	float:left;
+}
+
+.squad-list-titles .cost-title {
+	float:left;
+	width:6%;
+	text-align:right;
+}
+*/
+
+.col-content h2 {
+	margin:1em 0;
+	padding-left:1.5%;
+
+}
+
+footer h2, footer #mc_embed_signup h2 {
+	font-size:.625em;
+	background:none;
+	padding:0;
+	margin:0 0 .5em;
+	font-weight:500;
+}
+
+.squad-list h2 {
+	color:#fff;
+	border-color:#fff;
+	font-weight:500;
+	margin:0 0 .25em;
+	padding-left:0;
+}
+
+.squad-list .squad-upgrade h2 {
+	font-size:.5em;
+}
+
+.squad-list column h2 {
+	border:none;
+	background-color:#fff;
+	color:#554846;
+	padding-left:3%;
+}
+
+
+
+description h3 {
+	margin-left:0;
+	margin-right:0;
+}
+
+aside h3 {
+	font-size:1em;
+	margin:0;
+	margin-bottom:.5em;
+}
+
+.header-box h1 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    left: 10%;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    margin-top: 4.5%;
+    width: 80%;
+}
+
+.header-box h3 {
+    color: #651310;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.value h3 {
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.ship-con h3 {
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	padding: 0 0 .25vw .125vw;
+	margin:0;
+}
+
+.ship-con h4 {
+	border-left: 1px solid #000;
+	padding: 0.25vw 0 .125vw .125vw;
+}
+	
+
+stat h4 {
+   	font-weight: 700;
+	font-size:100%;
+}
+
+pilotbar stat.squadcost h4 {
+	font-size:75%;
+	padding-bottom:.75vw;
+	min-width:2vw;
+}
+
+
+
+
+/*h5 {
+    color: #fff;
+    font-size: 0.5em;
+    font-weight: 500;
+    background-color: #fff;
+    color: #554846;
+    padding: 0.25em 10px 0;
+	line-height:1.25em;	
+}
+*/	
+
+p {
+	font-family: "Play",sans-serif;
+	font-size: 75%;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	line-height: 1.5;
+	margin-bottom: 0.5em;
+}
+
+.warning {
+	color:#651310;
+	font-weight:700;
+}
+
+.col-content p {
+	margin-left:1.5%;
+	margin-right:1.5%;
+}
+
+a, ul, li {
+	font-family:inherit;
+	font-size:inherit;
+}
+
+a {
+	color:inherit;
+	text-decoration:none;
+}
+
+/*
+p a {
+	color:#651310;
+}
+*/
+p {
+	strong, b {
+		font-weight:700;
+	}
+}
+
+em {
+	font-style:italic;
+}
+
+blockquote {
+	font-style:italic;
+	padding-left:7.5%;
+	/*background-image:url(../images/quote.svg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-size:20px 20px;*/
+}
+
+.quoter, .source {
+	text-align:right;
+	font-size:0.8em;
+	display:block;
+}
+
+.col-1 blockquote {
+	padding-left:15%;
+
+}
+
+pilotbar h3 {
+    float: left;
+}
+
+.col-half h2, .col-sixth h2, .ship-con h2 {
+/*	font-size:.625em;
+    line-height: 1.25em;
+	margin:0;		*/
+}
+
+.col-quarter h2 {
+    font-size: 0.48em;
+    font-weight: normal;
+    line-height: 1.25em;
+    margin: 0;
+    text-align: center;
+    word-wrap: break-word;	
+}
+
+.ship-con h2, .ship-man .col-half h2 {
+	text-align:center;
+}
+
+.active-ship h2 {
+	background-color:rgba(33, 22, 19, 0.3);
+/*	color:#211613; */
+}
+
+p.ship-id {
+	display:none;
+}
+
+/*
+thumbdescription h3 {
+	margin:0;
+}
+
+thumbdescription h4 {
+	font-size:.5vw;
+}
+*/
+
+pilotvalue, squadcost {
+    color: #000000;
+    font-family: 'Orbitron',sans-serif;
+    font-weight: 500;
+   	text-align: center;
+    text-shadow: 0 0 1px #000000;
+}
+
+squadcost {
+	font-size:0.75em;
+}
+
+.speed h3 {
+	font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 15%;
+    text-align: center; 
+	color:#211613;
+}
+
+/*
+links h3 {
+	margin:0;
+	font-weight:500;	
+}
+
+links p {
+	font-size:67.5%;
+    line-height: 1;
+}
+*/
+.configuration {
+	font-size:.8em;
+}
+
+/*
+nav a {
+    color: #fff;
+    font-family: "Orbitron",sans-serif;
+    font-size: 0.75em;
+    font-weight: 400;
+    text-decoration: none;
+    text-shadow: 0 0 20px rgba(41, 41, 37, 1);
+    text-transform: uppercase;
+}
+*/
+.menu-footer li {
+    display: block;
+    margin-bottom: 0.25em;
+}
+
+.menu-footer a {
+    color: #fff;
+    display: block;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 0.575em;
+    font-weight: 500;
+    line-height: 1.15em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.prev-link {
+    float: left;
+    font-size: 0.75em;
+    line-height: 1.2em;
+    width: 45%;
+}
+
+.next-link {
+    float: right;
+    font-size: 0.75em;
+    line-height: 1.2em;
+    width: 45%;
+	text-align:right;
+}
+
+/* COMMENTS */
+
+h3#comments-title {
+	margin:0 1.5% 1em;
+}
+
+.comment .comment-author cite, .comment .comment-author .says {
+    float: left;
+    font-family: 'Orbitron',sans-serif;
+    font-size: 0.75em;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    margin-right: 0.5em;
+    text-transform: uppercase;
+}
+
+.comment footer a {
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 0.575em;
+    font-weight: 500;
+}
+
+

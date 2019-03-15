@@ -1,0 +1,157 @@
+
+/* Scss Document */
+
+html {
+	font-family: "industry",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "factoria",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: $section-colour;
+    font-size: 150%;
+    font-weight: 400;
+}
+
+h2 {
+	margin-bottom: .5vw;
+}
+
+h3 {
+	font-size:100%;
+	background-color:$black;
+	color:$section-colour;
+	padding: 0.25vw 0.25vw 0.125vw;
+	margin-bottom:.5vw;
+    &.nmb {
+        margin-bottom: 0;
+    }
+    
+    &.full-title {
+        width: 100%;
+        margin: 0 1vw;
+        @include display-flex;
+        @include justify-content(space-between);
+        @include align-self(flex-start);
+        &.no-justify {
+            @include justify-content(flex-start);
+            display: inline;
+        }
+        span {
+            font-size: 75%;
+            &.initiative {
+                font-size: 100%;
+                color: $ps;
+            }
+            
+            
+        }
+    }
+    
+    span {
+        &.h3-attack {
+            color: $attack;
+            font-weight: 800;
+        }
+        
+         &.h3-evade {
+            
+            color: $agility;
+            font-weight: 800;
+        }
+    }
+   
+}
+
+h4 {
+	font-size:87.5%;
+	border-left: 1px solid $black;
+	padding: 0 0.125vw .25vw;
+    .expand-btn {
+        font-weight: 700;
+        padding: 0 0 0 1vw;
+        cursor: pointer;
+    }
+    
+    &.blog-title {
+        border: none;
+        font-size: 100%;
+        margin: .5vw 0 .25vw;
+        padding: 0;
+    }
+}
+
+h5 {
+	font-size:75%;
+
+}
+
+p {
+	font-size:87.5%;
+	line-height:1.25;
+	margin-bottom:.5vw;
+	letter-spacing:.04vw;
+    font-weight: 400;
+    &.warning {
+        font-weight: inherit;
+        color: $attack;
+         text-align: center;
+    }
+    &.right-align {
+        text-align: right;
+    }
+    
+    
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    
+    &.button {
+        background-color: $agility;
+        color: $section-colour;
+        margin-top: .5vw;
+        padding: 0.125vw 0.25vw 0;
+        font-family: "factoria",sans-serif;
+        text-align: right;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+    
+    &.btn {
+        color: $section-colour;
+        background-color: $black;
+        padding: .125vw .25vw;
+        font-size: .75vw;
+        text-transform: uppercase;
+        &.lm {
+            margin-left: 1vw;
+        }
+    }
+}
+
+.unique {
+    a, .content-title {
+        padding-left: .5vw;
+        background-image: url(../images/unique.svg);
+        background-repeat: no-repeat;
+        background-position: left 0.0625vw;
+        background-size: .375vw .75vw;
+    }
+}
+
+em, i {
+	font-style:italic;
+}
+
+strong, b {
+	font-weight: 800;
+}
